@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="promotoria.grocus.mx.promotoriapedidos" >
+
+    <!-- PERMISO DE SERVICIO DE ACCESO A INTERNET -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- PERMISO DE SERVICIO A UBICACION -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- Bloque de permisos para el uso del barcode -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".PromotoriaPedidosApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".controller.MainLogin"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".controller.CapturaPedidoActivity"
+            android:label="@string/title_activity_captura_pedido"
+            android:windowSoftInputMode="adjustPan"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".controller.ComentariosActivity"
+            android:label="@string/title_activity_comentarios"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".controller.ContenedorCapturaPedidosActivity"
+            android:label="@string/title_activity_contenedor_captura_pedidos"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".controller.ContenedorDetallePedidoActivity"
+            android:label="@string/title_activity_contenedor_detalle_pedido"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".controller.ContenedorEncuestaPreguntasActivity"
+            android:label="@string/title_activity_contenedor_encuesta_preguntas"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".controller.ContenedorSucursalesActivity"
+            android:label="@string/title_activity_contenedor_sucursales"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".controller.DetallePedidoActivity"
+            android:label="@string/title_activity_detalle_pedido"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".controller.EncuestaListaActivity"
+            android:label="@string/title_activity_encuesta_lista"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".controller.SucursalMenuActivity"
+            android:label="@string/title_activity_sucursal_check_in"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".controller.SucursalesListaActivity"
+            android:label="@string/title_activity_sucursales_lista"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".controller.FirmaPedidoActivity"
+            android:label="@string/title_activity_sucursales_lista"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".controller.DisplayErrorActivity"
+            android:label="@string/title_activity_display_error"
+            android:screenOrientation="landscape" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="UnusedResources">
+
+    <!-- TODO ERLM el color se debe modificar en el tema, en lugar de este archivo -->
+    <!-- <color name="color_letra_listado">#000000</color> -->
+    <!-- <color name="actionbar_text">#ffffffff</color> -->
+    <!-- <color name="transparent">#00000000</color> -->
+    <color name="white">#ffffffff</color>
+    <color name="black" tools:ignore="UnusedResources">#ff000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="color_btn_menu_selected">#00000000</color>
+    <!-- <color name="color_background_layout">#ffffff</color> -->
+    <!-- <color name="color_contraste">#6fFFFFFF</color> -->
+    <!-- <color name="color_letra_contraste">#ffffff</color> -->
+    <!--  -->
+
+
+
+
+
+    <!-- Linea divisoria entre las celdas en la sección de pedidos -->
+    <color name="divider_view">#ffbf9834</color>
+
+    <!-- Color de fondo en pantallas emergentes-->
+    <color name="background_alert">#ffbf9834</color>
+
+    <!-- Texto gral de la app & txt de las pantallas emergentes-->
+    <color name="text_color_main">#ff996633</color>
+
+    <!-- Color de fondo para la primeras tabla en la sección: "Pedidos" -->
+    <color name="color_contraste">#6fFFFFFF</color>
+
+    <!-- Color de fondo para la segunda tabla en la seción de: "Pedidos" -->
+    <color name="background_item_cart">#9fFFFFFF</color>
+    <!-- Titulos de columnas de la segunda tabla en la sección :"Pedidos" & txt del botón "Agregar" -->
+    <color name="text_color_main_invert">#ffbf9834</color>
+    <!-- Texto segunda tabla, articulos seleccionados en la sección :"Pedidos" & txt del botón "Agregar" -->
+    <color name="text_color_main_cart">#ffbf9834</color>
+
+    <!-- Color de fondo para las celdas del listado "Pedidos", "Servicios", "Sucursales", "Promociones" -->
+    <color name="background_list_item">#4fbf9834</color>
+
+    <!-- Color de fondo para la barra "$00.00" en "Productos" y "Detalle"-->
+    <color name="bar_color_constrast">#ff000000</color>
+    <!-- Texto "Importe del pedido" en "Productos" y "Detalle" & txt "Mas informes..."-->
+    <color name="bar_color_constrast_invert">#ffffffff</color>
+    <!-- Texto "$00.00" en "Productos" y "Detalle" -->
+    <color name="text_color_bar_price">#ffffffff</color>
+
+    <!-- Texto engresado por el usuario -->
+    <color name="text_color_edit_text">#ff96782d</color>
+    <!-- Color de fondo en campos de txt requeridos-->
+    <color name="text_color_background_edit_text">#9fbf9834</color>
+
+    <!-- Color de fondo para los botones usados en los formularios o campos requeridos-->
+    <color name="button_color_alert">#ffbf9834</color>
+    <!-- Texto en los boton "Iniciar sesión e Ingresar mas tarde" en la sección:"Login" -->
+    <color name="text_button_color">#ffFFFFFF</color>
+
+
+
+    <!-- Texto del encabezado en la barra de superior sólo se ve este cambio en os android 2.3.4 -->
+    <color name="text_color_action_bar">#ffffffff</color>
+
+    <!-- Txt superior de la ventana emergente en la sección: "Sucursales", "¿Seleccionar como sucursal actual?"-->
+    <color name="text_color_alert_title">#ff000000</color>
+    <color name="text_color_alert">#ff996633</color>
+
+    <!-- <color name="button_color">#2dfb05</color>
+    <color name="button_color_variant">#fb0545</color> -->
+
+
+
+
+
+</resources>

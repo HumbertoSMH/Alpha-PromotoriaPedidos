@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Promotoría y Pedidos</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_captura_pedido">Capturar Pedido</string>
+    <string name="title_activity_comentarios">Comentarios</string>
+    <string name="title_activity_contenedor_captura_pedidos">ContenedorCapturaPedidosActivity
+    </string>
+    <string name="title_activity_contenedor_detalle_pedido">ContenedorDetallePedidoActivity</string>
+    <string name="title_activity_contenedor_encuesta_preguntas">
+        ContenedorEncuestaPreguntasActivity
+    </string>
+    <string name="title_activity_contenedor_sucursales">ContenedorSucursalesActivity</string>
+    <string name="title_activity_detalle_pedido">Detalle del pedido</string>
+    <string name="title_activity_encuesta_lista">Encuesta</string>
+    <string name="title_activity_sucursal_check_in">Menu de Farmacia</string>
+    <string name="title_activity_sucursales_lista">Lista de Farmacias</string>
+
+
+
+
+    <string name="Aceptar">Aceptar</string>
+    <string name="Cancelar">Cancelar</string>
+    <string name="title_activity_display_error">Mensaje de Error</string>
+
+
+</resources>
